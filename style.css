@@ -1,0 +1,111 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Gilroy-bold; 
+}
+html,
+body {
+  text-transform: uppercase;
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+}
+#hero {
+  background: #771225;;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#empty1 {
+  height: 100%;
+  width: 25%;
+}
+#image {
+  height: 100%;
+  width: 67%;
+  overflow: hidden;
+}
+#image img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  opacity: 60%;
+}
+
+#empty2 {
+  height: 100%;
+  width: 8%;
+}
+
+#text{
+  width: 30%;
+  position: absolute;
+  left: 12%;
+  top: 65%;
+  transform: translate(0,-50%);
+
+}
+#text>h1 {
+  font-size: 80px;
+  letter-spacing: 5px;
+  line-height: 90px;
+  font-weight: 900;
+  font-family: against;  
+  color: #fff;
+}
+#small-image{
+  background-image: url(/ChatGPT\ Image\ Apr\ 1\,\ 2025\,\ 04_24_03\ PM.png);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  width: 255px;
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  background-color: #9e2226;
+}
+#overlay{
+  height: 100%;
+  width: 100%;
+  background-color: #8521212e;
+}
+#vertical-text{
+  position: absolute;
+  top: 45%;
+  right: -18%;
+  
+}
+#vertical-text h1{
+  font-size: 53px;
+  font-weight:900;
+  color: transparent;
+  letter-spacing: 8px;
+  -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-width: 2px;
+  transform: rotate(90deg);
+}
+#navbar{
+  color: #fff;
+  position: absolute;
+  height: 100px;
+  width: 350px;
+  top: 7%;
+  left: 12%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+#navbar h4{
+  font-size: 25px;
+  padding-right: 30px;
+}
